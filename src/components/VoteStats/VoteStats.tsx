@@ -1,7 +1,5 @@
 import css from "./VoteStats.module.css";
-import type { VoteType } from "../../types/votes.ts";
-
-type Votes = Record<VoteType, number>;
+import type { Votes } from "../../types/votes.ts";
 
 interface VoteStatsProps {
   votes: Votes;
